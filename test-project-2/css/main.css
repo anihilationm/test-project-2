@@ -1,0 +1,429 @@
+html {
+    background: #304354;
+}
+body {
+    width:      100%;
+    background: #343B43;
+    max-width:  1100px;
+    margin:     0 auto;
+    position:   relative;
+}
+body:before,
+body:after {
+    content: "";
+    display: table;
+}
+body:after {
+    clear: both;
+}
+
+/***CONTACT LIST***/
+
+.contact-list {
+    background: #343B43;
+    color:      #5E676E;
+    width:      30%;
+    font-size:  1.1em;
+    font-family: 'Open Sans', sans-serif;
+    float:      left;
+    position:   absolute;
+    z-index:    1;
+    display:    block;
+}
+ul {
+    list-style-type: none;
+    padding:            0;
+    margin-bottom:      0;
+}
+.inner li {
+    padding:        1em 3em 1em 2em;
+    font-weight:    bold;
+}
+.inner li:nth-child(2n - 1) {
+    background: #3a4149;
+}
+
+
+.search-bar {
+    text-align:     center;
+    padding-top:    2em;
+}
+.search-bar input{
+    width:              170px;
+    background-color:   #343B43;
+    border:             0;
+    border-bottom:      1px solid #5E676E;
+}
+.search-bar input:focus {
+    outline: none;
+}
+.search-bar .fa-bars {
+    margin-right: 20px;
+}
+.search-bar .fa-search {
+    margin-left: 10px;
+}
+
+
+.title {
+    padding:        3em 2em 1em 2.5em;
+    font-size:      1.2em;
+}
+.title .fa {
+    margin-right: 15px;
+}
+
+
+.quantity {
+    float:          right;
+    font-size:      1.5em;
+    line-height:    1em;
+    font-weight:    normal;
+}
+.quantity .fa {
+    margin-right: 20px;
+}
+.typing {
+    color:          #F9F6E5;
+    font-weight:    normal !important;
+}
+.typing .fa {
+    font-size:      0.5em;
+    margin-right:   10px;
+    color:          #EDC74C;
+}
+.typing .fa-2x {
+    margin-right:     0;
+    font-size:        0.8em;
+    line-height:      1.5em;
+    color:            #ed654a;
+}
+.friend-name {
+    color:          #F9F6E5;
+    text-transform: uppercase;
+    text-align:     center;
+    height:         3.67em;
+}
+.yellow {
+    background: #EDC74C !important;
+}
+.blue {
+    background: #4593C1 !important;
+}
+.azure {
+    background: #00CACC !important;
+}
+
+/***MAIN***/
+
+.page {
+    width:          70%;
+    float:          right;
+    font-family:    'Open Sans', sans-serif;
+    z-index:        40;
+}
+.page-header {
+    margin:         0;
+    background:     #F0F1F3;
+    color:          #303a96;
+    padding-bottom: 0;
+    font-family:    'Open Sans', sans-serif;
+    border-bottom:  0;
+}
+.change-icons:before,
+.change-icons:after {
+    content: "";
+    display: table;
+}
+.change-icons:after {
+    clear: both;
+}
+.icon-group {
+    float:          right;
+    font-size:      3em;
+    font-weight:    normal;
+}
+.icon-group .fa{
+    margin-right:   30px;
+    margin-top:     20px;
+}
+.fa-arrow-circle-left {
+    margin-top:     0.4em;
+    margin-left:    0.4em;
+    font-size:      3em;
+    position:       absolute;
+    display:        none;
+    cursor:         pointer;
+}
+
+
+/***PROFILE***/
+.user-profile {
+    font-weight:        400;
+    padding-bottom:     3em;
+    background:         #F0F1F3;
+    border-bottom:      1px solid #c9cacc;
+}
+.user-profile:before,
+.user-profile:after {
+    content: "";
+    display: table;
+}
+.user-profile:after {
+    clear: both;
+}
+.user-img {
+    float:          left;
+    margin-left:    4em;
+    margin-right:   2em;
+    height:         100px;
+}
+.user-img img {
+    width:          100%;
+    border-radius:  50%;
+}
+.user-info h1 {
+    font-size:      2.1em;
+    line-height:    0.1em;
+    font-weight:    300;
+}
+.user-info .fa-glass {
+    font-size:      0.7em;
+    margin-left:    10px;
+}
+.user-info .text {
+    text-transform:     uppercase;
+    line-height:        3em;
+    word-spacing:       0.4em;
+    margin-right:       2em;
+}
+.user-info .number {
+    font-size: 1.3em;
+}
+.user-info .fa-comment {
+    padding-left:   10px;
+    color:          #cc4f60;
+}
+
+/***NAVIGATION BAR***/
+
+.user-navbar {
+    position: relative;
+}
+.user-navbar ul {
+    margin: 0;
+    padding:0;
+}
+.user-navbar:before,
+.user-navbar:after {
+    content: "";
+    display: table;
+}
+.user-navbar:after {
+    clear: both;
+}
+.user-navbar li {
+    float:          left;
+    font-size:      1.3em;
+    font-weight:    300;
+    margin-right:   2.5em;
+    padding-top:    1.5em;
+    padding-bottom: 1.5em;
+    cursor:         pointer;
+    position:       relative;
+}
+.user-navbar li:first-child {
+    margin-left: 3.4em;
+}
+.user-navbar li:last-child {
+    margin-right: 0;
+}
+.active {
+    font-weight:    bold !important;
+    position:       relative;
+}
+.user-navbar .fa-circle {
+    margin-left:    0.8em;
+    font-size:      0.7em;
+    vertical-align: super;
+    color:          #CC4F60;
+}
+.user-navbar .fa-sort-desc {
+    margin-left:    0.7em;
+    vertical-align: middle;
+}
+
+.move {
+    font-weight: bold !important;
+}
+.move:after {
+     content:       "";
+     width:         0;
+     height:        0;
+     border-left:   12px solid transparent;
+     border-right:  12px solid transparent;
+     border-top:    12px solid #f4f4f4;
+     position:      absolute;
+     top:           100%;
+     left:          35%;
+ }
+
+/***PROFILES***/
+
+.profile-block {
+    width:              100%;
+    height:             260px;
+    background-image:   url("../images/bg3.jpg");
+    background-size:    cover;
+}
+.profile-block h2 {
+    margin:         0;
+    color:          #d4d5d7;
+    font-size:      1.3em;
+    line-height:    1.3em;
+}
+.friend-profile {
+    float:          left;
+    background:     rgba(0, 0, 0, .5);
+    height:         100%;
+    width:          30.3%;
+    text-align:     left;
+    padding-top:    3.5em;
+    padding-left:   3em;
+}
+.friend-img {
+    height:     100px;
+    width:      100px;
+    margin-top: 2em;
+}
+.friend-img img{
+    width:          100%;
+    border-radius:  50%;
+}
+.date {
+    float:          right;
+    font-size:      2em;
+    color:          #000;
+    background:     #00CACC;
+    font-weight:    300;
+    padding:        0.2em 0.7em;
+}
+
+
+.profile-block.cityscape {
+    background: url("../images/bg4.jpg") no-repeat 50% 60%;
+}
+.post {
+    width:          30.3%;
+    float:          left;
+    height:         100%;
+    background:     rgba(247, 193, 65, 0.80);
+    font-weight:    300;
+    position:       relative;
+}
+.post:after {
+    content:        "";
+    width:          0;
+    height:         0;
+    position:       absolute;
+    border-top:     8px solid transparent;
+    border-left:    10px solid rgba(247, 193, 65, 0.90);
+    border-bottom:  8px solid transparent;
+    top:            47%;
+    left:           100%;
+}
+.post p {
+    border-bottom:  1px solid #a5a7a8;
+    padding:        3em 1.5em 2em 2em;
+    font-size:      1.12em;
+    line-height:    1.65em;
+    margin-bottom:  0;
+}
+.post span {
+    line-height:    3.8em;
+    margin-left:    20%;
+    font-size:      1.5em;
+    font-family:    inherit;
+    word-spacing:   2em;
+}
+.post span:last-child {
+    margin-left: 1.5em;
+}
+.post .fa {
+    margin-right: 0.3em;
+}
+.post .fa-heart {
+    color: #df61ba;
+}
+.post .fa-comment {
+    color: #115191;
+}
+.info-block {
+    float:      right;
+    width:      69.7%;
+    height:     100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+.info-block .friend-profile {
+    background: none;
+}
+.post-name {
+    padding-top:    1em;
+    height:         100%;
+    width:          48%;
+    color:          #d4d5d7;
+    float:          right;
+    margin-right:   2em;
+    line-height:    2.2em;
+}
+.post-name h1 {
+    font-weight:    300;
+    color:          #F0F1F3;
+}
+.post-name p {
+    text-transform: uppercase;
+    font-size:      1.1em;
+}
+.post-name span {
+    font-size:      3em;
+    font-weight:    300;
+}
+.post-name .fa {
+    margin-left: 3em;
+}
+
+.winter {
+    background: url("../images/bg5.jpg") no-repeat 24% 46%;
+}
+.winter .date {
+    background: #4593C1;
+}
+#ps {
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top:100%;
+}
+
+
+
+
+
+/***MEDIA QUERIES***/
+
+@media all and (max-width: 1150px) {
+    .contact-list {
+        display:    none;
+        width:      330px;
+    }
+    body {
+        width: 70%;
+    }
+    .page {
+        width: 100%;
+    }
+    .fa-arrow-circle-left {
+        display: block;
+    }
+}
