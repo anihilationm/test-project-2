@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <section class="contact-list">
+        <ul class="outer">
+            <li class="search-bar">
+                <i class="fa fa-bars fa-2x"></i>
+                <input type="text">
+                <i class="fa fa-search fa-2x"></i></li>
+            <li class="title"><i class="fa  fa-user-secret fa-lg"></i>Storybook<span class="quantity">241</span></li>
+            <li>
+                <ul class="inner">
+                    <li class="friend-name yellow">Daniel Stonefront</li>
+                    <li>Metropolis<span class="quantity"><i class="fa fa-picture-o"></i>5</span></li>
+                    <li>New Urbanism<span class="quantity"><i class="fa fa-file-o"></i>9</span></li>
+                    <li>Citta Nuova<span class="quantity"><i class="fa fa-file-o"></i>1</span></li>
+                    <li class="typing">Typing...<span class="quantity"><i class="fa fa-circle"></i><i class="fa fa-circle fa-2x"></i></span></li>
+                    <li>Manifesto<span class="quantity"><i class="fa fa-file-o"></i>7</span></li>
+                    <li>Brasilia 1960<span class="quantity"><i class="fa fa-picture-o"></i>9</span></li>
+                    <li>Suburbia</li>
+                </ul>
+            </li>
+            <li>
+                <ul class="inner">
+                    <li class="friend-name blue">Ana Navratilova</li>
+                    <li>Tungsten Winter<span class="quantity"><i class="fa fa-file-o"></i>7</span></li>
+                    <li>Emerald Spring<span class="quantity"><i class="fa fa-picture-o"></i>2</span></li>
+                    <li>Rock Steady<span class="quantity"><i class="fa fa-file-o"></i>8</span></li>
+                    <li>Ionosphere<span class="quantity"><i class="fa fa-picture-o"></i>9</span></li>
+                    <li>The Great Divide</li>
+                </ul>
+            </li>
+            <li>
+                <ul class="inner">
+                    <li class="friend-name azure">Martin Speedfreak</li>
+                    <li>Vanashing Point<span class="quantity"><i class="fa fa-file-o"></i>4</span></li>
+                    <li>Grand Turismo<span class="quantity"><i class="fa fa-picture-o"></i>5</span></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <main class="page">
+
+        <header class="page-header">
+            <section class="change-icons">
+                <i class="fa fa-arrow-circle-left" id="trigger"></i>
+                <div class="icon-group"><i class="fa fa-pencil"></i><i class="fa fa-times"></i></div>
+            </section>
+            <section class="user-profile">
+                <div class="user-img"><img src="images/1.gif"></div>
+                <div class="user-info">
+                    <h1>Marky Mark<i class="fa fa-glass"></i></h1>
+                    <span class="stories text"><span class="number">24</span> Stories</span>
+                    <span class="followers text"><span class="number">174</span> Followers</span>
+                    <span class="dialogues text"><span class="number">2</span><i class="fa fa-comment fa-lg"></i></span>
+                </div>
+            </section>
+            <nav class="user-navbar">
+                <ul>
+                    <li>My Stories</li>
+                    <li>Following</li>
+                    <li>Hot Stuff<sup class="fa fa-circle"></sup></li>
+                    <li>Everyone</li>
+                    <li>Categories<i class="fa fa-sort-desc"></i></li>
+                </ul>
+                <div id="pointer"></div>
+            </nav>
+        </header>
+
+        <section class="profiles">
+            <div class="profile-block">
+                <div class="friend-profile">
+                    <h2>Martin<br> Speedfreak</h2>
+                    <div class="friend-img"><img src="images/2.jpg"></div>
+                </div>
+                <p class="date">17.10</p>
+            </div>
+            <div class="profile-block cityscape">
+                <div class="post">
+                    <p>Manifest Futurist Architecture was published in August 1914, supposedly by...</p>
+                    <span><i class="fa fa-heart"></i>78</span>
+                    <span><i class="fa fa-comment"></i>24</span>
+                </div>
+                <div class="info-block">
+                    <div class="friend-profile">
+                        <h2>Daniel<br> Stonefront</h2>
+                        <div class="friend-img"><img src="images/3.jpg"></div>
+                    </div>
+                    <div class="post-name">
+                        <h1>Cityscapes</h1>
+                        <p>Chapter 2 / second coming of tokyo and osaka</p>
+                        <span>2/7</span>
+                        <span class="fa fa-long-arrow-right"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-block winter">
+                <div class="friend-profile">
+                    <h2>Anna<br> Navratilova</h2>
+                    <div class="friend-img"><img src="images/4.jpg"></div>
+                </div>
+                <p class="date">12.10</p>
+                <p id="ps">Made only for personal usage. <a href="https://dribbble.com/shots/1268885-Story-Book">Source.</a> All rights belong to the theme creator.</p>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
